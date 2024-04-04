@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment</title>
+</head>
+<body>
+
+<script>
+// Array of names
+var names = ["John", "Jane", "James", "Emily", "Jack"];
+
+// Looping over the array of names
+for (var i = 0; i < names.length; i++) {
+    // Getting the current name
+    var name = names[i];
+
+    // Checking if the name starts with 'j' or 'J'
+    if (name.charAt(0).toLowerCase() === 'j') {
+        // If it starts with 'j' or 'J', print "Goodbye"
+        console.log("Goodbye " + name);
+    } else {
+        // If it starts with any other letter, print "Hello"
+        console.log("Hello " + name);
+    }
+}
+</script>
+
+</body>
+</html>
